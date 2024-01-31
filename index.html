@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>randomizer</title>
+</head>
+
+<body id="body">
+    <div id="form" class="form">
+
+        <h3>вкажіть діапазон</h3>
+        <input id="start-num" type="text" placeholder="від">
+        <input id="finish-num" type="text" placeholder="до">
+        
+        <button class="btn" id="start">start</button>
+        <button class="btn" id="reset">reset</button>
+        <div id="spinner" class="spinner hidden">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+
+</html>
